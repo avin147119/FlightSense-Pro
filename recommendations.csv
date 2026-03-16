@@ -1,0 +1,19 @@
+route,date,signal,confidence,current_price,predicted_min,predicted_max,ci_lower,ci_upper,reason,days_to_diwali,cheapest_airline
+Bengaluru → Ranchi,2025-11-02,UNCERTAIN,0.866,16558.22,14991.35,17273.83,16137.04,18362.33,Only 0 days to Diwali — prices unlikely to drop. Book if needed.,0,Akasa
+Bengaluru → Ranchi,2025-11-03,UNCERTAIN,0.917,14613.38,14991.35,17273.83,14760.04,15972.13,Only 0 days to Diwali — prices unlikely to drop. Book if needed.,0,SpiceJet
+Bengaluru → Ranchi,2025-11-04,UNCERTAIN,0.946,14776.54,14991.35,17273.83,14347.16,15144.09,Only 0 days to Diwali — prices unlikely to drop. Book if needed.,0,Akasa
+Bengaluru → Ranchi,2025-11-05,UNCERTAIN,0.939,14795.54,14991.35,17273.83,14218.08,15113.97,Only 0 days to Diwali — prices unlikely to drop. Book if needed.,0,IndiGo
+Bengaluru → Ranchi,2025-11-06,UNCERTAIN,0.915,14797.69,14991.35,17273.83,14500.56,15765.54,Only 0 days to Diwali — prices unlikely to drop. Book if needed.,0,IndiGo
+Bengaluru → Ranchi,2025-11-07,UNCERTAIN,0.959,16774.0,14991.35,17273.83,15783.04,16462.66,Only 0 days to Diwali — prices unlikely to drop. Book if needed.,0,Akasa
+Bengaluru → Ranchi,2025-11-08,UNCERTAIN,0.943,16922.75,14991.35,17273.83,15880.87,16841.53,Only 0 days to Diwali — prices unlikely to drop. Book if needed.,0,Akasa
+Bengaluru → Ranchi,2025-11-09,UNCERTAIN,0.87,16950.47,14991.35,17273.83,16157.82,18358.66,Only 0 days to Diwali — prices unlikely to drop. Book if needed.,0,IndiGo
+Bengaluru → Ranchi,2025-11-10,UNCERTAIN,0.914,14711.87,14991.35,17273.83,14672.79,15930.78,Only 0 days to Diwali — prices unlikely to drop. Book if needed.,0,IndiGo
+Bengaluru → Lucknow,2025-11-02,UNCERTAIN,0.875,18276.32,16467.52,19186.79,17868.79,20158.27,Only 0 days to Diwali — prices unlikely to drop. Book if needed.,0,Akasa
+Bengaluru → Lucknow,2025-11-03,UNCERTAIN,0.904,16306.46,16467.52,19186.79,15957.93,17527.6,Only 0 days to Diwali — prices unlikely to drop. Book if needed.,0,Akasa
+Bengaluru → Lucknow,2025-11-04,UNCERTAIN,0.924,16504.87,16467.52,19186.79,15854.96,17102.41,Only 0 days to Diwali — prices unlikely to drop. Book if needed.,0,Akasa
+Bengaluru → Lucknow,2025-11-05,UNCERTAIN,0.941,16181.29,16467.52,19186.79,15652.49,16602.56,Only 0 days to Diwali — prices unlikely to drop. Book if needed.,0,IndiGo
+Bengaluru → Lucknow,2025-11-06,UNCERTAIN,0.923,16072.63,16467.52,19186.79,15887.51,17129.01,Only 0 days to Diwali — prices unlikely to drop. Book if needed.,0,Akasa
+Bengaluru → Lucknow,2025-11-07,UNCERTAIN,0.945,18555.83,16467.52,19186.79,17437.29,18453.75,Only 0 days to Diwali — prices unlikely to drop. Book if needed.,0,Akasa
+Bengaluru → Lucknow,2025-11-08,UNCERTAIN,0.94,18121.01,16467.52,19186.79,17548.58,18642.0,Only 0 days to Diwali — prices unlikely to drop. Book if needed.,0,IndiGo
+Bengaluru → Lucknow,2025-11-09,UNCERTAIN,0.867,17948.8,16467.52,19186.79,17668.2,20056.54,Only 0 days to Diwali — prices unlikely to drop. Book if needed.,0,Akasa
+Bengaluru → Lucknow,2025-11-10,UNCERTAIN,0.905,16192.13,16467.52,19186.79,15761.96,17303.81,Only 0 days to Diwali — prices unlikely to drop. Book if needed.,0,IndiGo

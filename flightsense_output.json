@@ -1,0 +1,442 @@
+{
+  "generated_at": "2026-03-01T15:26:36.682836Z",
+  "diwali_2025": "2025-10-20",
+  "ci_level": 0.9,
+  "n_bootstrap": 80,
+  "routes": {
+    "Bengaluru \u2192 Ranchi": {
+      "model_errors": {
+        "GBM": 442.0489434007389,
+        "SARIMA": 2280.6442172332363,
+        "Neural": 349.5049573509272,
+        "Ensemble": 451.4056687636144
+      },
+      "ensemble_weights": {
+        "GBM": 0.4067,
+        "SARIMA": 0.0788,
+        "Neural": 0.5144
+      },
+      "competitor_summary": {
+        "IndiGo": {
+          "min": 7548.7,
+          "mean": 13362.74,
+          "max": 18858.82
+        },
+        "Air India": {
+          "min": 8201.15,
+          "mean": 15084.67,
+          "max": 21955.73
+        },
+        "SpiceJet": {
+          "min": 7800.37,
+          "mean": 13859.89,
+          "max": 20293.19
+        },
+        "Akasa": {
+          "min": 7609.0,
+          "mean": 13341.47,
+          "max": 19233.55
+        }
+      },
+      "recommendations": [
+        {
+          "route": "Bengaluru \u2192 Ranchi",
+          "date": "2025-11-02",
+          "signal": "UNCERTAIN",
+          "confidence": 0.866,
+          "current_price": 16558.22,
+          "predicted_min": 14991.35,
+          "predicted_max": 17273.83,
+          "ci_lower": 16137.04,
+          "ci_upper": 18362.33,
+          "reason": "Only 0 days to Diwali \u2014 prices unlikely to drop. Book if needed.",
+          "days_to_diwali": 0,
+          "cheapest_airline": "Akasa",
+          "airline_prices": {
+            "IndiGo": 16775.51,
+            "Air India": 18600.81,
+            "SpiceJet": 17132.35,
+            "Akasa": 15764.22
+          }
+        },
+        {
+          "route": "Bengaluru \u2192 Ranchi",
+          "date": "2025-11-03",
+          "signal": "UNCERTAIN",
+          "confidence": 0.917,
+          "current_price": 14613.38,
+          "predicted_min": 14991.35,
+          "predicted_max": 17273.83,
+          "ci_lower": 14760.04,
+          "ci_upper": 15972.13,
+          "reason": "Only 0 days to Diwali \u2014 prices unlikely to drop. Book if needed.",
+          "days_to_diwali": 0,
+          "cheapest_airline": "SpiceJet",
+          "airline_prices": {
+            "IndiGo": 14776.99,
+            "Air India": 16444.87,
+            "SpiceJet": 14181.18,
+            "Akasa": 15287.5
+          }
+        },
+        {
+          "route": "Bengaluru \u2192 Ranchi",
+          "date": "2025-11-04",
+          "signal": "UNCERTAIN",
+          "confidence": 0.946,
+          "current_price": 14776.54,
+          "predicted_min": 14991.35,
+          "predicted_max": 17273.83,
+          "ci_lower": 14347.16,
+          "ci_upper": 15144.09,
+          "reason": "Only 0 days to Diwali \u2014 prices unlikely to drop. Book if needed.",
+          "days_to_diwali": 0,
+          "cheapest_airline": "Akasa",
+          "airline_prices": {
+            "IndiGo": 14467.84,
+            "Air India": 17231.77,
+            "SpiceJet": 14396.02,
+            "Akasa": 14112.16
+          }
+        },
+        {
+          "route": "Bengaluru \u2192 Ranchi",
+          "date": "2025-11-05",
+          "signal": "UNCERTAIN",
+          "confidence": 0.939,
+          "current_price": 14795.54,
+          "predicted_min": 14991.35,
+          "predicted_max": 17273.83,
+          "ci_lower": 14218.08,
+          "ci_upper": 15113.97,
+          "reason": "Only 0 days to Diwali \u2014 prices unlikely to drop. Book if needed.",
+          "days_to_diwali": 0,
+          "cheapest_airline": "IndiGo",
+          "airline_prices": {
+            "IndiGo": 14139.99,
+            "Air India": 15668.82,
+            "SpiceJet": 14768.62,
+            "Akasa": 14586.48
+          }
+        },
+        {
+          "route": "Bengaluru \u2192 Ranchi",
+          "date": "2025-11-06",
+          "signal": "UNCERTAIN",
+          "confidence": 0.915,
+          "current_price": 14797.69,
+          "predicted_min": 14991.35,
+          "predicted_max": 17273.83,
+          "ci_lower": 14500.56,
+          "ci_upper": 15765.54,
+          "reason": "Only 0 days to Diwali \u2014 prices unlikely to drop. Book if needed.",
+          "days_to_diwali": 0,
+          "cheapest_airline": "IndiGo",
+          "airline_prices": {
+            "IndiGo": 14174.96,
+            "Air India": 16563.27,
+            "SpiceJet": 14693.82,
+            "Akasa": 14682.76
+          }
+        },
+        {
+          "route": "Bengaluru \u2192 Ranchi",
+          "date": "2025-11-07",
+          "signal": "UNCERTAIN",
+          "confidence": 0.959,
+          "current_price": 16774.0,
+          "predicted_min": 14991.35,
+          "predicted_max": 17273.83,
+          "ci_lower": 15783.04,
+          "ci_upper": 16462.66,
+          "reason": "Only 0 days to Diwali \u2014 prices unlikely to drop. Book if needed.",
+          "days_to_diwali": 0,
+          "cheapest_airline": "Akasa",
+          "airline_prices": {
+            "IndiGo": 15960.95,
+            "Air India": 19222.92,
+            "SpiceJet": 17026.41,
+            "Akasa": 15815.07
+          }
+        },
+        {
+          "route": "Bengaluru \u2192 Ranchi",
+          "date": "2025-11-08",
+          "signal": "UNCERTAIN",
+          "confidence": 0.943,
+          "current_price": 16922.75,
+          "predicted_min": 14991.35,
+          "predicted_max": 17273.83,
+          "ci_lower": 15880.87,
+          "ci_upper": 16841.53,
+          "reason": "Only 0 days to Diwali \u2014 prices unlikely to drop. Book if needed.",
+          "days_to_diwali": 0,
+          "cheapest_airline": "Akasa",
+          "airline_prices": {
+            "IndiGo": 16457.58,
+            "Air India": 18858.76,
+            "SpiceJet": 16671.83,
+            "Akasa": 16024.84
+          }
+        },
+        {
+          "route": "Bengaluru \u2192 Ranchi",
+          "date": "2025-11-09",
+          "signal": "UNCERTAIN",
+          "confidence": 0.87,
+          "current_price": 16950.47,
+          "predicted_min": 14991.35,
+          "predicted_max": 17273.83,
+          "ci_lower": 16157.82,
+          "ci_upper": 18358.66,
+          "reason": "Only 0 days to Diwali \u2014 prices unlikely to drop. Book if needed.",
+          "days_to_diwali": 0,
+          "cheapest_airline": "IndiGo",
+          "airline_prices": {
+            "IndiGo": 16624.02,
+            "Air India": 18974.55,
+            "SpiceJet": 17578.33,
+            "Akasa": 17442.1
+          }
+        },
+        {
+          "route": "Bengaluru \u2192 Ranchi",
+          "date": "2025-11-10",
+          "signal": "UNCERTAIN",
+          "confidence": 0.914,
+          "current_price": 14711.87,
+          "predicted_min": 14991.35,
+          "predicted_max": 17273.83,
+          "ci_lower": 14672.79,
+          "ci_upper": 15930.78,
+          "reason": "Only 0 days to Diwali \u2014 prices unlikely to drop. Book if needed.",
+          "days_to_diwali": 0,
+          "cheapest_airline": "IndiGo",
+          "airline_prices": {
+            "IndiGo": 14336.09,
+            "Air India": 16526.42,
+            "SpiceJet": 15471.56,
+            "Akasa": 15227.88
+          }
+        }
+      ]
+    },
+    "Bengaluru \u2192 Lucknow": {
+      "model_errors": {
+        "GBM": 657.5277965512323,
+        "SARIMA": 2545.5295814958863,
+        "Neural": 472.69063228032206,
+        "Ensemble": 643.5313560745859
+      },
+      "ensemble_weights": {
+        "GBM": 0.3775,
+        "SARIMA": 0.0975,
+        "Neural": 0.525
+      },
+      "competitor_summary": {
+        "IndiGo": {
+          "min": 7899.41,
+          "mean": 14620.73,
+          "max": 21540.2
+        },
+        "Air India": {
+          "min": 9434.11,
+          "mean": 16363.87,
+          "max": 23636.03
+        },
+        "SpiceJet": {
+          "min": 8149.22,
+          "mean": 15237.22,
+          "max": 22257.35
+        },
+        "Akasa": {
+          "min": 8170.08,
+          "mean": 14639.54,
+          "max": 22198.55
+        }
+      },
+      "recommendations": [
+        {
+          "route": "Bengaluru \u2192 Lucknow",
+          "date": "2025-11-02",
+          "signal": "UNCERTAIN",
+          "confidence": 0.875,
+          "current_price": 18276.32,
+          "predicted_min": 16467.52,
+          "predicted_max": 19186.79,
+          "ci_lower": 17868.79,
+          "ci_upper": 20158.27,
+          "reason": "Only 0 days to Diwali \u2014 prices unlikely to drop. Book if needed.",
+          "days_to_diwali": 0,
+          "cheapest_airline": "Akasa",
+          "airline_prices": {
+            "IndiGo": 18452.64,
+            "Air India": 19556.64,
+            "SpiceJet": 19469.89,
+            "Akasa": 17088.02
+          }
+        },
+        {
+          "route": "Bengaluru \u2192 Lucknow",
+          "date": "2025-11-03",
+          "signal": "UNCERTAIN",
+          "confidence": 0.904,
+          "current_price": 16306.46,
+          "predicted_min": 16467.52,
+          "predicted_max": 19186.79,
+          "ci_lower": 15957.93,
+          "ci_upper": 17527.6,
+          "reason": "Only 0 days to Diwali \u2014 prices unlikely to drop. Book if needed.",
+          "days_to_diwali": 0,
+          "cheapest_airline": "Akasa",
+          "airline_prices": {
+            "IndiGo": 16484.47,
+            "Air India": 17430.46,
+            "SpiceJet": 16700.33,
+            "Akasa": 16163.73
+          }
+        },
+        {
+          "route": "Bengaluru \u2192 Lucknow",
+          "date": "2025-11-04",
+          "signal": "UNCERTAIN",
+          "confidence": 0.924,
+          "current_price": 16504.87,
+          "predicted_min": 16467.52,
+          "predicted_max": 19186.79,
+          "ci_lower": 15854.96,
+          "ci_upper": 17102.41,
+          "reason": "Only 0 days to Diwali \u2014 prices unlikely to drop. Book if needed.",
+          "days_to_diwali": 0,
+          "cheapest_airline": "Akasa",
+          "airline_prices": {
+            "IndiGo": 16389.39,
+            "Air India": 18052.71,
+            "SpiceJet": 16656.13,
+            "Akasa": 16270.17
+          }
+        },
+        {
+          "route": "Bengaluru \u2192 Lucknow",
+          "date": "2025-11-05",
+          "signal": "UNCERTAIN",
+          "confidence": 0.941,
+          "current_price": 16181.29,
+          "predicted_min": 16467.52,
+          "predicted_max": 19186.79,
+          "ci_lower": 15652.49,
+          "ci_upper": 16602.56,
+          "reason": "Only 0 days to Diwali \u2014 prices unlikely to drop. Book if needed.",
+          "days_to_diwali": 0,
+          "cheapest_airline": "IndiGo",
+          "airline_prices": {
+            "IndiGo": 16074.41,
+            "Air India": 17166.89,
+            "SpiceJet": 17459.69,
+            "Akasa": 16341.4
+          }
+        },
+        {
+          "route": "Bengaluru \u2192 Lucknow",
+          "date": "2025-11-06",
+          "signal": "UNCERTAIN",
+          "confidence": 0.923,
+          "current_price": 16072.63,
+          "predicted_min": 16467.52,
+          "predicted_max": 19186.79,
+          "ci_lower": 15887.51,
+          "ci_upper": 17129.01,
+          "reason": "Only 0 days to Diwali \u2014 prices unlikely to drop. Book if needed.",
+          "days_to_diwali": 0,
+          "cheapest_airline": "Akasa",
+          "airline_prices": {
+            "IndiGo": 16143.77,
+            "Air India": 18475.59,
+            "SpiceJet": 16780.76,
+            "Akasa": 15736.59
+          }
+        },
+        {
+          "route": "Bengaluru \u2192 Lucknow",
+          "date": "2025-11-07",
+          "signal": "UNCERTAIN",
+          "confidence": 0.945,
+          "current_price": 18555.83,
+          "predicted_min": 16467.52,
+          "predicted_max": 19186.79,
+          "ci_lower": 17437.29,
+          "ci_upper": 18453.75,
+          "reason": "Only 0 days to Diwali \u2014 prices unlikely to drop. Book if needed.",
+          "days_to_diwali": 0,
+          "cheapest_airline": "Akasa",
+          "airline_prices": {
+            "IndiGo": 17720.62,
+            "Air India": 20938.68,
+            "SpiceJet": 19913.9,
+            "Akasa": 17300.47
+          }
+        },
+        {
+          "route": "Bengaluru \u2192 Lucknow",
+          "date": "2025-11-08",
+          "signal": "UNCERTAIN",
+          "confidence": 0.94,
+          "current_price": 18121.01,
+          "predicted_min": 16467.52,
+          "predicted_max": 19186.79,
+          "ci_lower": 17548.58,
+          "ci_upper": 18642.0,
+          "reason": "Only 0 days to Diwali \u2014 prices unlikely to drop. Book if needed.",
+          "days_to_diwali": 0,
+          "cheapest_airline": "IndiGo",
+          "airline_prices": {
+            "IndiGo": 17422.07,
+            "Air India": 19487.13,
+            "SpiceJet": 19242.65,
+            "Akasa": 17695.64
+          }
+        },
+        {
+          "route": "Bengaluru \u2192 Lucknow",
+          "date": "2025-11-09",
+          "signal": "UNCERTAIN",
+          "confidence": 0.867,
+          "current_price": 17948.8,
+          "predicted_min": 16467.52,
+          "predicted_max": 19186.79,
+          "ci_lower": 17668.2,
+          "ci_upper": 20056.54,
+          "reason": "Only 0 days to Diwali \u2014 prices unlikely to drop. Book if needed.",
+          "days_to_diwali": 0,
+          "cheapest_airline": "Akasa",
+          "airline_prices": {
+            "IndiGo": 17900.81,
+            "Air India": 20846.49,
+            "SpiceJet": 18163.36,
+            "Akasa": 16743.03
+          }
+        },
+        {
+          "route": "Bengaluru \u2192 Lucknow",
+          "date": "2025-11-10",
+          "signal": "UNCERTAIN",
+          "confidence": 0.905,
+          "current_price": 16192.13,
+          "predicted_min": 16467.52,
+          "predicted_max": 19186.79,
+          "ci_lower": 15761.96,
+          "ci_upper": 17303.81,
+          "reason": "Only 0 days to Diwali \u2014 prices unlikely to drop. Book if needed.",
+          "days_to_diwali": 0,
+          "cheapest_airline": "IndiGo",
+          "airline_prices": {
+            "IndiGo": 15409.74,
+            "Air India": 17366.35,
+            "SpiceJet": 17337.2,
+            "Akasa": 16086.23
+          }
+        }
+      ]
+    }
+  }
+}
