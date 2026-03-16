@@ -8,21 +8,21 @@ A multi-model ML system that predicts flight prices around Indian festival peaks
 
 ---
 
-## 🚀 Features
+##  Features
 
 | Feature | Description |
 |---|---|
-| 🌐 Live + Simulated Data | Amadeus API with local disk cache; no API key needed in simulate mode |
-| 🤖 3 ML Models | LightGBM/XGBoost, Holt-Winters (SARIMA proxy), MLP Neural Network |
-| 📊 Ensemble Forecasting | Inverse-RMSE weighted blend of all three models |
-| 📉 90% Confidence Intervals | Bootstrap resampling (80 iterations default) for uncertainty quantification |
-| 🏆 Competitor Comparison | IndiGo vs Air India vs SpiceJet vs Akasa — 4-airline fare tracking |
-| 🎯 Booking Engine | BUY NOW / WAIT / SET ALERT / UNCERTAIN signals with confidence scores |
-| 💾 Export | JSON (API-ready) + CSV recommendations output |
+|  Live + Simulated Data | Amadeus API with local disk cache; no API key needed in simulate mode |
+|  3 ML Models | LightGBM/XGBoost, Holt-Winters (SARIMA proxy), MLP Neural Network |
+|  Ensemble Forecasting | Inverse-RMSE weighted blend of all three models |
+|  90% Confidence Intervals | Bootstrap resampling (80 iterations default) for uncertainty quantification |
+|  Competitor Comparison | IndiGo vs Air India vs SpiceJet vs Akasa — 4-airline fare tracking |
+|  Booking Engine | BUY NOW / WAIT / SET ALERT / UNCERTAIN signals with confidence scores |
+| Export | JSON (API-ready) + CSV recommendations output |
 
 ---
 
-## 📦 Installation
+## Installation
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/flightsense-pro.git
@@ -37,7 +37,7 @@ pip install jupyter
 
 ---
 
-## 🏃 Quick Start
+##  Quick Start
 
 ### Simulate Mode (no API key needed)
 ```bash
@@ -61,7 +61,7 @@ AMADEUS_ENV    = 'test'  # or 'production'
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 flightsense-pro/
@@ -79,7 +79,7 @@ flightsense-pro/
 
 ---
 
-## 🤖 Model Architecture
+##  Model Architecture
 
 ```
 Historical Data (2022–2024)  +  Current Year (2025)
@@ -109,7 +109,7 @@ Historical Data (2022–2024)  +  Current Year (2025)
 
 ---
 
-## 📊 Sample Output
+##  Sample Output
 
 | Date | Route | Price | Signal | Confidence | Cheapest Airline |
 |------|-------|-------|--------|------------|-----------------|
@@ -119,7 +119,7 @@ Historical Data (2022–2024)  +  Current Year (2025)
 
 ---
 
-## 🔗 Integration
+##  Integration
 
 ### Webhook on BUY signal
 ```python
@@ -136,7 +136,7 @@ for rec in recommendations:
 
 ---
 
-## 📈 Performance
+##  Performance
 
 | Route | GBM RMSE | Neural RMSE | Ensemble RMSE |
 |-------|----------|-------------|---------------|
@@ -145,7 +145,7 @@ for rec in recommendations:
 
 ---
 
-## 🔑 Key Configuration (Cell 4)
+##  Key Configuration (Cell 4)
 
 | Parameter | Default | Description |
 |-----------|---------|-------------|
@@ -158,7 +158,7 @@ for rec in recommendations:
 
 ---
 
-## 📄 License
+##  License
 
 MIT License — free to use, modify, and distribute.
 
