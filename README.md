@@ -1,9 +1,5 @@
 # FlightSense Pro — Diwali 2025 Flight Price Predictor
 
-<p align="center">
-  <img src="outputs/route_comparison.png" width="100%" alt="Route Comparison">
-</p>
-
 A multi-model ML system that predicts flight prices around Indian festival peaks (Diwali), generates booking signals (BUY NOW / WAIT / SET ALERT), and compares fares across 4 airlines on 2 routes.
 
 ---
