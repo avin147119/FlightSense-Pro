@@ -1,4 +1,4 @@
-# ✈️ FlightSense Pro — Diwali 2025 Flight Price Predictor
+# FlightSense Pro — Diwali 2025 Flight Price Predictor
 
 <p align="center">
   <img src="outputs/route_comparison.png" width="100%" alt="Route Comparison">
